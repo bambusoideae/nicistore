@@ -1,0 +1,83 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true,
+    "es6": true
+  },
+  "plugins": [
+    "react",
+    "jsx-a11y"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "script",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "extends": ["react-app", "airbnb"],
+  "rules": {
+    "react/jsx-filename-extension": 0,
+    "react/forbid-prop-types": 0,
+    "react/jsx-boolean-value": 0,
+    "react/jsx-first-prop-new-line": 0,
+    "react/jsx-closing-bracket-location": 0,
+    "react/no-multi-comp": 0,
+    "react/prefer-stateless-function": 0,
+    "import/no-unresolved": "warn",
+    "import/no-extraneous-dependencies": 0,
+    "import/extensions": 0,
+    "import/first": 0,
+    "import/no-dynamic-require": 0,
+    "jsx-quotes": ["warn", "prefer-double"],
+    "no-alert": 0,
+    "no-use-before-define": 0,
+    "no-console": 0,
+    "no-tabs": 0,
+    "no-param-reassign": 0,
+    "no-underscore-dangle": 0,
+    "comma-dangle": 0,
+    "no-return-assign": 0,
+    "no-plusplus": 0,
+    "global-require": 0,
+    "object-property-newline": 0,
+    
+    "prefer-const": "warn",
+    "no-unused-vars": "warn",
+    "no-trailing-spaces": "warn",
+    "object-shorthand": "warn",
+    "max-len": ["warn", 120],
+    "consistent-return": 0,
+    "class-methods-use-this":0,
+    "arrow-parens": ["error", "always"],
+    "no-restricted-globals": 0,
+    
+    "react/no-typos": 0,
+    "function-paren-newline": 0,
+    "object-curly-newline": 0,
+    "prefer-destructuring": 0,
+    "prefer-promise-reject-errors": 0,
+    
+    "arrow-body-style": [
+      1,
+      "as-needed"
+    ],
+    "jsx-a11y/aria-props": 2,
+    "jsx-a11y/heading-has-content": 0,
+    "jsx-a11y/href-no-hash": 2,
+    "jsx-a11y/label-has-for": 2,
+    "jsx-a11y/mouse-events-have-key-events": 2,
+    "jsx-a11y/role-has-required-aria-props": 2,
+    "jsx-a11y/role-supports-aria-props": 2,
+    "react/no-unused-prop-types": "warn",
+    "import/prefer-default-export": "warn",
+    "react/require-default-props": "warn",
+    "import/no-named-as-default": "warn",
+    "no-else-return": "warn",
+    "strict": [2, "global"],
+    "prefer-template": "warn",
+    "no-shadow": "warn"
+  }
+}
